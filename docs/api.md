@@ -1,4 +1,3 @@
-```markdown
 # Notes API Reference
 
 ## GET /notes
@@ -20,7 +19,7 @@ GET /notes/<id>
 Returns a single note.
 
 Example
-curl http://localhost:5000/notes/1
+curl http://localhost:8080/notes/1
 
 Success response
 {
@@ -48,8 +47,7 @@ DELETE /notes/<id>
 Deletes a note.
 
 Success
-Returns HTTP 200.
+Returns the newly created note.
 
 Not found
 Returns HTTP 404.
-
