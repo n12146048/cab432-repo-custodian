@@ -20,7 +20,7 @@ python app.py
 
 The API will be available at:
 
-http://localhost:5000
+http://localhost:8080
 
 Endpoints
 List notes
@@ -44,5 +44,7 @@ Delete a note
 DELETE /notes/<id>
 
 Example
-curl http://localhost:5000/notes
+curl http://localhost:8080/notes
 
+Health Check
+GET /health
