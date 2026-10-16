@@ -20,7 +20,7 @@ GET /notes/<id>
 Returns a single note.
 
 Example
-curl http://localhost:5000/notes/1
+curl http://localhost:8080/notes/1
 
 Success response
 {
@@ -53,3 +53,4 @@ Returns HTTP 200.
 Not found
 Returns HTTP 404.
 
+```
